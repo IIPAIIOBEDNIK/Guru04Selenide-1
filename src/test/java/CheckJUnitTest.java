@@ -15,7 +15,7 @@ public class CheckJUnitTest {
     }
 
     @Test
-    void checkJUnit() {
+    void checkJUnitTest() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();   // - Перейдите в раздел Wiki проекта
         $(".js-wiki-more-pages-link").click();   //  - Убедитесь, что в списке страниц (Pages)
